@@ -1,0 +1,129 @@
+.details-title {
+    /* text-transform: uppercase; */
+    text-align: center;
+    font-size: 2.5rem;
+   
+}
+
+.details {
+    width: 270px;
+    margin: 0 auto;
+    display: none;
+}
+
+.title-card {
+    position: relative;
+    border-radius: 1rem 1rem 0 0;
+    color: #fff;
+    padding: 1rem;
+    padding-bottom: 6rem;
+}
+
+.title-card .pokemon-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-card .pokemon-header .pokemon-name {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.title-card .pokemon-header .pokemon-id {
+    font-size: .8rem;
+}
+
+.title-card img {
+    width: 130px;
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.title-card i {
+    font-size: 2rem;
+    margin-bottom: .5rem;
+    cursor: pointer;
+}
+
+.types-detail {
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    gap: 8px;
+    text-transform: capitalize;
+}
+
+.types-detail .type{
+    border-radius: 1rem;
+    padding: .25rem .5rem;
+    filter: brightness(1.1);
+}
+
+.stats-card {
+    background-color: rgba(215, 230, 230, 0.623);
+    border-radius:  0 0 1rem 1rem;
+    padding: .5rem;
+    border: 1px solid rgba(0, 0, 0, 0.541);
+    border-top: none;
+    text-transform: capitalize;
+}
+
+.stats-card .stats-title {
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    margin-top: 3.5rem;
+
+}
+
+.stats {
+    margin: 0;
+    padding: 0;
+}
+
+.stats .stats-item {
+    border-bottom: 1px solid rgba(59, 59, 59, 0.795);
+    margin-bottom: 10px;
+    padding: .325rem;
+}
+
+.stats .stats-item:last-child {
+    border-bottom: none;
+}
+
+/* .loader {
+    border: 24px solid #FFF;
+    border-color: #FF3D00 #FF3D00 #a8a6a6 #a8a6a6;
+    border-radius: 50%;
+    position: relative;
+    animation: rotate 1s linear infinite;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    
+  }
+
+  .loader:before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      transform: translate(-50% , -60%);
+      left: 50%;
+      width: 12px;
+      height: 12px;
+      background: #fff;
+      border-radius: 50%;
+    }
+  @keyframes rotate {
+    100%   { transform: rotate(360deg)}
+  } */
+
+
+
